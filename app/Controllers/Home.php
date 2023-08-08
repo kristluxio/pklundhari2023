@@ -1,12 +1,16 @@
 <?php
 
-namespace App\Controllers;
+namespace app\controllers;
 
 class Home extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
-        //test comment
+        $data=[
+                'title' => 'home',
+                'isi'   =>  'v_home',
+        ];
+        echo view('layout/v_wrapper' ,$data);
+
     }
 }
