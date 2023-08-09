@@ -1,20 +1,18 @@
 <?php
 
-namespace app\Controllers;
+namespace App\Controllers;
 
-class Home extends BaseController
+Class Home Extends BaseController
 {
-    public function index(): string
+     function index(): string
     {
         $data=[
                 'title' => 'Judul home',
-                'isi'   =>  'v_home',
+                'isi'   => 'v_home',
            ];
         echo view('layout/v_wrapper',$data);
-
     }
-
-    public function menu2()
+     function menu2()
     {
         $data=[
             'title' => 'Judul halaman Menu 2',
@@ -23,7 +21,7 @@ class Home extends BaseController
     echo view('layout/v_wrapper',$data);
     }
     
-    public function menu3()
+     function menu3()
     {
         $data=[
             'title' => 'judul halaman Menu 3',
@@ -31,7 +29,7 @@ class Home extends BaseController
              ];
     echo view('layout/v_wrapper',$data);
     }
-    public function menu4()
+     function menu4()
     {
         $data=[
             'title' => 'judul halaman Menu 4',
@@ -39,5 +37,4 @@ class Home extends BaseController
              ];
     echo view('layout/v_wrapper',$data);
     }
-
 }
