@@ -27,35 +27,52 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
+          <li class="nav-item menu-close">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Starter Pages
+                Home
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="#" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Active Page</p>
+                  <p>sub menu 1</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Inactive Page</p>
+                  <p>sub menu 2</p>
                 </a>
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?= base_url('home/menu2') ?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Simple Link
-                <span class="right badge badge-danger">New</span>
+               menu 2
+               
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('home/menu3') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+               menu 3
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href=<?= base_url('home/menu3') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+               menu 4
               </p>
             </a>
           </li>
@@ -73,7 +90,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Home 1</h1>
+            <h1 class="m-0 text-dark"><?= $title; ?></h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
