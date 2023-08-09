@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 Class Home Extends BaseController
 {
-     function index(): string
+     function index()
     {
         $data=[
                 'title' => 'Judul home',
