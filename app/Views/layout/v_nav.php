@@ -51,7 +51,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('Home/menu2') ?>" class="nav-link">
+            <a href="<?= base_url('home/menu2') ?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                menu 2
@@ -60,7 +60,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('Home/menu3') ?>" class="nav-link">
+            <a href="<?= base_url('home/menu3') ?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                menu 3
@@ -69,13 +69,23 @@
           </li>
 
           <li class="nav-item">
-            <a href="<?= base_url('Home/menu4') ?>" class="nav-link">
+            <a href="<?= base_url('home/menu3') ?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                menu 4
               </p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="<?= base_url('Product') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+               Product
+              </p>
+            </a>
+          </li>
+          
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
