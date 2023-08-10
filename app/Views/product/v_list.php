@@ -1,6 +1,14 @@
 <div class="col-sm-12">
+<a href="<?= base_url('Product/tambah') ?>" class="btn btn-primary">Tambah Data</a>
+<br><br>
+<?php
+    if (!empty(session()->getFlashdata('success'))) { ?>
+        <div class="alert alert-success">
+    <?= session()->getFlashdata('success'); ?>
+</div>
+   <?php } ?>
 
-<table class="table table-bordered table-responsive">>
+<table id="example1" class="table table-bordered table-striped">>
     <thead>
         <tr>
             <th>No</th>
@@ -10,14 +18,14 @@
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($product as $key => $value) { ?>
+        <?php $no=1; foreach ($product as $key => $value) { ?>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><?= $no++; ?></td>
+            <td><?= $value['prodcut_name']; ?></td>
+            <td><?= $value['product_description']; ?></td>
             <td>
-                <a href="" class="btn-warning">Edit</a>
-                <a href="" class="btn-danger">Delete</a>
+                <a href="<?= base_url('product/edit/'.$value['product_id']) ?>" class="btn-warning">Edit</a>
+                <a href="<?= base_url('product/delete/'.$value['product_id']) ?>" class="btn-danger" onClick="return confirm('Apakah Ingin Hapus Data..?')">Delete</a>
             </td>
         </tr>
         <?php } ?>
