@@ -85,6 +85,14 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="<?= base_url('Instansi') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+               Instansi
+              </p>
+            </a>
+          </li>
           
         </ul>
       </nav>
