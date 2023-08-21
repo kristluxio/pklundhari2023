@@ -1,0 +1,211 @@
+INFO - 2023-08-21 01:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 01:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 04:09:14 --> Unmatched '}'
+in APPPATH\Views\jadwal\v_list_jadwal.php on line 19.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('jadwal/v_list_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(5): view('jadwal/v_list_jadwal')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pklundhari2023\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/v_content.php', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content.php')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pklundhari2023\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\jadwal.php(24): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jadwal->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:16:20 --> Unmatched '}'
+in APPPATH\Views\jadwal\v_list_jadwal.php on line 19.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('jadwal/v_list_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(5): view('jadwal/v_list_jadwal')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pklundhari2023\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/v_content.php', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content.php')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pklundhari2023\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\jadwal.php(11): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\jadwal->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\jadwal))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:16:22 --> Unmatched '}'
+in APPPATH\Views\jadwal\v_list_jadwal.php on line 19.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('jadwal/v_list_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(5): view('jadwal/v_list_jadwal')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pklundhari2023\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/v_content.php', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content.php')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pklundhari2023\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\jadwal.php(11): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\jadwal->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\jadwal))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 04:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 05:00:41 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:02:11 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:04:22 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:04:24 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:04:25 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:26 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:28 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:29 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:30 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:30 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:30 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:31 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:31 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:31 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:31 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:10:01 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:10:03 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:13:41 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:13:52 --> Class "App\Controllers\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:19:26 --> Class "App\Models\JadwalModel" not found
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Jadwal->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 05:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 05:25:55 --> Undefined variable $id_instansi
+in APPPATH\Controllers\Jadwal.php on line 70.
+ 1 APPPATH\Controllers\Jadwal.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_instansi', 'C:\\xampp\\htdocs\\pklundhari2023\\app\\Controllers\\Jadwal.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jadwal->delete('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 05:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

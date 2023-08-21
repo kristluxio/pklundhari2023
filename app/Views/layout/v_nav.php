@@ -93,7 +93,12 @@
               </p>
             </a>
           </li>
-          
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('Jadwal') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+               Jadwal
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
