@@ -12,7 +12,7 @@
 
                  <div class="form-group">
                     <label>tgl_jadwal </label> 
-                    <input Name="tgl_jadwal" value="<?=jadwal['tgl_jadwal'] ?>" class="form-control" placeholder="tgl_jadwal" required>
+                    <input type="date" Name="tgl_jadwal" value="<?=jadwal['tgl_jadwal'] ?>" class="form-control" placeholder="tgl_jadwal" required>
                   </div>
 
                   <div class="form-group">

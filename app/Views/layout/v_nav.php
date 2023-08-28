@@ -50,29 +50,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a href="<?= base_url('home/menu2') ?>" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-               menu 2
-               
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="<?= base_url('home/menu3') ?>" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-               menu 3
-              </p>
-            </a>
-          </li>
 
-          <li class="nav-item">
-            <a href="<?= base_url('home/menu3') ?>" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-               menu 4
               </p>
             </a>
           </li>
@@ -99,6 +77,15 @@
               <i class="nav-icon fas fa-th"></i>
               <p>
                Jadwal
+               </p>
+            </a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('User') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+               User
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

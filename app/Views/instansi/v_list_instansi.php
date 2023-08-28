@@ -23,7 +23,7 @@
             <tr>
          <td><?= $no++; ?></td>
         <td><?= $value['nama_instansi']; ?></td>
-        <td><?= $value['ket_instansi']; ?></td>
+        <td><?= $value['Ket_instansi']; ?></td> 
         <td><?= $value['logo_instansi']; ?></td>
         <td>
             <a href="<?= base_url('instansi/edit/'.$value['id_instansi']) ?>" class="btn btn-warning">Edit</a>
