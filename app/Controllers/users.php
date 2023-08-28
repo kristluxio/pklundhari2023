@@ -18,7 +18,7 @@ class Users Extends BaseController
     {
         $data=[
                 'title'   => 'List Data Users',
-                'Users' => $this->UsersModel->get_users(),
+                'users' => $this->UsersModel->get_users(),
                 'isi'    => 'users/v_list_users',
            ];
         echo view('layout/v_wrapper',$data);
@@ -36,11 +36,11 @@ class Users Extends BaseController
     {
         $data= [
             'nip' => $this->request->getPost('nip'),
-            'nama => $this->request->getPost('nama'),
-            'no_hp => $this->request->getPost('no_hp'),
-            'password => $this->request->getPost('password'),
-            'role => $this->request->getPost('role'),
-            'email => $this->request->getPost('email'),
+            'nama' => $this->request->getPost('nama'),
+            'no_hp' => $this->request->getPost('no_hp'),
+            'password' => $this->request->getPost('password'),
+            'role' => $this->request->getPost('role'),
+            'email' => $this->request->getPost('email'),
         ];
 
         $this->UsersModel->insert_users($data);
@@ -50,7 +50,7 @@ class Users Extends BaseController
     public function edit($id_users)
     {
         $data=[
-            'title'   => 'Edit Data Jadwal',
+            'title'   => 'Edit Data Users',
             'users' => $this->UsersModel->edit_users($nip),
             'isi'     => 'users/v_edit',
        ];
@@ -61,11 +61,11 @@ class Users Extends BaseController
     {
         $data= [
             'nip' => $this->request->getPost('nip'),
-            'nama => $this->request->getPost('nama'),
-            'no_hp => $this->request->getPost('no_hp'),
-            'password => $this->request->getPost('password'),
-            'role => $this->request->getPost('role'),
-            'email => $this->request->getPost('email'),
+            'nama' => $this->request->getPost('nama'),
+            'no_hp'=> $this->request->getPost('no_hp'),
+            'password' => $this->request->getPost('password'),
+            'role' => $this->request->getPost('role'),
+            'email' => $this->request->getPost('email'),
         ];
 
         $this->UsersModel->update_users($data, $nip);

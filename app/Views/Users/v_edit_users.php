@@ -11,7 +11,7 @@
       <div class="card-body">
 
                  <div class="form-group">
-                    <label>nip </label> 
+                    <label>nip</label> 
                     <input type="date" Name="nip" value="<?=users['nip'] ?>" class="form-control" placeholder="nip" required>
                   </div>
 
