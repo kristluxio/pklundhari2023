@@ -81,7 +81,23 @@
             <a href="<?= base_url('users') ?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-               User
+               Users
+               </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('tersangka') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+               Tersangka
+               </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('berkas') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+               Berkas
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
