@@ -12,7 +12,7 @@
               <div class="card-body">
                  <div class="form-group">
                     <label>nip </label> 
-                    <input type="date" Name="nip" class="form-control" placeholder="nip" required>
+                    <input Name="nip" class="form-control" placeholder="nip" required>
                   </div>
 
                   <div class="form-group">

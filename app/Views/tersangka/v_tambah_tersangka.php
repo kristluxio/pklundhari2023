@@ -12,7 +12,7 @@
               <div class="card-body">
                  <div class="form-group">
                     <label>no_ktp </label> 
-                    <input="date" Name="no_ktp" class="form-control" placeholder="no_ktp" required>
+                    <input Name="no_ktp" class="form-control" placeholder="no_ktp" required>
                   </div>
 
                   <div class="form-group">

@@ -12,7 +12,7 @@
               <div class="card-body">
                  <div class="form-group">
                     <label>tgl_berkas </label> 
-                    <input="date" Name="tgl_berkas" class="form-control" placeholder="tgl_berkas" required>
+                    <input type="date" Name="tgl_berkas" class="form-control" placeholder="tgl_berkas" required>
                   </div>
 
                   <div class="form-group">

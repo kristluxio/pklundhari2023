@@ -11,6 +11,7 @@
          <table id="examplel" class="table table-bordered table-striped">
          <thead>
             <tr>
+                <th>No</th>
                 <th>Nip</th>
                 <th>Nama</th>
                 <th>No_Hp</th>
@@ -23,7 +24,7 @@
         <tbody>
         <?php $no=1; foreach ($users as $key => $value) { ?>
             <tr>
-         <td><?= $no++; ?></td>
+        <td><?= $no++; ?></td>
         <td><?= $value['nip']; ?></td>
         <td><?= $value['nama']; ?></td>
         <td><?= $value['no_hp']; ?></td>
