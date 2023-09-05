@@ -17,7 +17,7 @@ class Berkas Extends BaseController
     function index()
     {
         $data=[
-                'title'   => 'List Data Berkas',
+                'title'   =>'List Data Berkas',
                 'berkas' => $this->BerkasModel->get_berkas(),
                 'isi'    => 'berkas/v_list_berkas',
            ];
@@ -53,7 +53,7 @@ class Berkas Extends BaseController
     }
     public function edit($id_berkas)
     {
-        $data=[
+        $data=[ 
             'title'   => 'Edit Data Berkas',
             'berkas' => $this->BerkasModel->edit_berkas($id_berkas),
             'isi'     => 'berkas/v_edit',

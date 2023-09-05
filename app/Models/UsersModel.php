@@ -22,7 +22,7 @@ class UsersModel Extends Model
     {
         return $this->db->table('users')->update($data,array('nip'=> $nip)); 
     }
-    public function  delete_jadwal($nip)
+    public function  delete_users($nip)
     {
         return $this->db->table('users')->delete(array('nip'=> $nip)); 
     }

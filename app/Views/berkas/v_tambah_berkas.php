@@ -27,7 +27,7 @@
 
                   <div class="form-group">
                     <label>tgl_sp_kap</label>
-                    <input Name="tgl_sp_kap" class="form-control" placeholder="tgl_sp_kap" required>
+                    <input type="date" Name="tgl_sp_kap" class="form-control" placeholder="tgl_sp_kap" required>
                   </div>
 
                   <div class="form-group">
@@ -47,7 +47,7 @@
 
                   <div class="form-group">
                     <label>no_srt_permintaan</label>
-                    <input Name="resume_singkatno_srt_permintaan" class="form-control" placeholder="no_srt_permintaan" required>
+                    <input Name="no_srt_permintaan" class="form-control" placeholder="no_srt_permintaan" required>
                   </div>
 
                   <div class="form-group">

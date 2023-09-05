@@ -17,7 +17,6 @@
                 <th>Tgl_sp_kap</th>
                 <th>File_sp_kap</th>
                 <th>No_ba_kap</th>
-                <th>No_ba_kap</th>
                 <th>File_ba_kap</th>
                 <th>No_srt_permintaan</th>
                 <th>File_srt_permintaan</th>
