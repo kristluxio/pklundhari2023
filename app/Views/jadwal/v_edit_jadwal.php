@@ -5,7 +5,7 @@
   <div class="card-header">
   <h3 class="card-title">Edit</h3>
   </div>
-  <!-- /.card-header -->
+  <!-- /.card-header --> 
   <!-- form start -->
      <form role="form" action="<?= base_url('jadwal/update/'.$jadwal['id_jadwal']) ?>" method="post">
       <div class="card-body">

@@ -47,7 +47,7 @@
 
                   <div class="form-group">
                     <label>no_srt_permintaan</label>
-                    <input="no_srt_permintaan" value="<?=berkas['no_srt_permintaan'] ?>" class="form-control" placeholder="no_srt_permintaan" required>
+                    <input Name="no_srt_permintaan" value="<?=berkas['no_srt_permintaan'] ?>" class="form-control" placeholder="no_srt_permintaan" required>
                   </div>
 
                   <div class="form-group">
