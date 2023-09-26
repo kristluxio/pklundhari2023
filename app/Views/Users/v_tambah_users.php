@@ -32,7 +32,12 @@
 
                   <div class="form-group">
                     <label>role</label>
-                    <input Name="role" class="form-control" placeholder="role" required>
+                    <!-- <input Name="role" class="form-control" placeholder="role" required>-->
+                    <select name="role" id="role" class="form-control" placeholder="role" required>
+                      <option value="Penyidik">Penyidik</option>
+                      <option value="Jaksa">Jaksa</option>
+                      <option value="Dokter">Dokter</option>
+                    </select>
                   </div>
 
                   <div class="form-group">

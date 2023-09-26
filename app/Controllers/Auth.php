@@ -89,4 +89,70 @@ Class Auth Extends BaseController
         return redirect()->to(base_url('Auth/register'));
     }
     }
-} 
+    public function login()
+    {
+        $data = array(
+            'title' => 'Login',
+        
+        );
+        return view('v_login',$data);
+    }
+    public function cek_login()
+    {
+        if ($this->validate([
+            'email'=>[
+                'label'=> 'Email',
+                'rules' =>'required',
+                'errors' => [
+                    'required' =>'{field} Wajib Diisi Dan Tidak Boleh Kosong !!!'
+                ]
+                ],
+                'password'=> [
+                    'label'=> 'Password',
+                    'rules' =>'required',
+                    'errors' => [
+                        'required' =>'{field} Wajib Diisi Dan Tidak Boleh Kosong !!!'
+                    ]
+                    ],
+        ])) {
+            //jika valid
+            $password =$this->request->getPost('password');
+            $email=$this->request->getPost('email');
+            $cek = $this-> ModelAuth->login($password, $email);
+            if ($cek) {
+                //jika datanya cocok
+                session()->set('log', true);
+                session()->set('nip', $cek['nip']);
+                session()->set('nama', $cek['nama']);
+                session()->set('no_hp', $cek['no_hp']);
+                session()->set('password', $cek['password']);
+                session()->set('role', $cek['role']);
+                session()->set('email', $cek['email']);
+                //login
+                return redirect()->to(base_url('home'));
+            }else {
+                //jika datanya tidak cocok
+                session()->setFlashdata('pesan','login Gagal !!, Cek Username Atau Password Tidak Cocok !!');
+                return redirect()->to(base_url('auth/login'));
+            }
+
+            }else {
+        //jika tidak valid
+        session()->setFlashdata('errors',\Config\Services::validation()->getErrors());
+        return redirect()->to(base_url('auth/login'));
+    }
+      }
+      public function logout()
+      {
+        session()->remove('log');
+        session()->remove('nip');
+        session()->remove('nama');
+        session()->remove('no_hp');
+        session()->remove('password');
+        session()->remove('role');
+        session()->remove('email');
+        session()->setFlashdata('pesan','Logout Suksess !!');
+                return redirect()->to(base_url('auth/login'));
+      }
+
+    }

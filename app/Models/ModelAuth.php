@@ -8,4 +8,11 @@ Class ModelAuth Extends Model
         $this->db->table('user')->insert($data);
          
     }
+    public function login($password, $email)
+    {
+        return $this->db->table('user')->where([
+            'password'=>$password,
+            'email'=>$email,
+        ])->get()->getRowArray();
+    }
 }

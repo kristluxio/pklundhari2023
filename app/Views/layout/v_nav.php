@@ -6,10 +6,13 @@
           <img src="template/dist/img/user2-160x160.jpg" class="img-circle elevation-2" Alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block"><?= session()->get('nip') ?></a>
         </div>
-      </div>
-
+      </div> <?= session()->get('nip') ?> - <?= session()->get('email') ?>
+                <small>Member since Nov. 2012<?small>
+                </p>
+                </li>
+                
       <!-- SidebarSearch Form -->
       <div class="form-inline">
         <div class="input-group" data-widget="sidebar-search">
