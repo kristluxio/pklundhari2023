@@ -6,9 +6,9 @@
           <img src="template/dist/img/user2-160x160.jpg" class="img-circle elevation-2" Alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?= session()->get('nip') ?></a>
+          <a href="#" class="d-block"><?= session()->get('nama') ?></a>
         </div>
-      </div> <?= session()->get('nip') ?> - <?= session()->get('email') ?>
+      </div> <?= session()->get('nama') ?> - <?= session()->get('email') ?>
                 <small>Member since Nov. 2012<?small>
                 </p>
                 </li>
