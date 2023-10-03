@@ -48,13 +48,6 @@ Class Auth Extends BaseController
                             'required' =>'{field} Wajib Diisi Dan Tidak Boleh Kosong !!!'
                         ]
                     ],
-                    'repassword'=>[
-                        'label'=> 'Retype Password',
-                        'rules' =>'required',
-                        'errors' => [
-                            'required' =>'{field} Tidak Sama !!!'
-                        ]
-                        ],
                         'role'=>[
                             'label'=> 'Role',
                             'rules' =>'required',

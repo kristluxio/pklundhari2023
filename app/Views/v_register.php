@@ -7,13 +7,13 @@
   <title>AdminLTE 3 | Registration Page</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="<?= base_url() ?>/tamplate/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet" href="<?= base_url() ?>/template/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?= base_url() ?>/tamplate/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>/template/plugins/fontawesome-free/css/all.min.css">
   <!-- icheck bootstrap -->
-  <link rel="stylesheet" href="<?= base_url() ?>/tamplate/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>/template/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?= base_url() ?>/tamplate/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>/template/dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition register-page">
 <div class="register-box">
@@ -68,14 +68,6 @@
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
             </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input name="password" class="form-control" placeholder="Password">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
             </div>
         </div>
         <div class="input-group mb-3">
@@ -123,18 +115,6 @@
           <!-- /.col -->
         </div>
       <?php echo form_close(); ?>
-
-      <div class="social-auth-links text-center">
-        <p>- OR -</p>
-        <a href="#" class="btn btn-block btn-primary">
-          <i class="fab fa-facebook mr-2"></i>
-          Sign up using Facebook
-        </a>
-        <a href="#" class="btn btn-block btn-danger">
-          <i class="fab fa-google-plus mr-2"></i>
-          Sign up using Google+
-        </a>
-      </div>
 
       <a href="<?= base_url('auth/login') ?>" class="text-center">Kembali Ke Login </a>
     </div>
