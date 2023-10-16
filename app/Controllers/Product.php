@@ -17,9 +17,9 @@ class Product Extends BaseController
      function index()
     {
         $data=[
-                'title'   => 'List Data Product',
-                'product' => $this->ProductModel->get_product(),
-                'isi'     => 'product/v_list',
+                'title'    => 'List Data Product',
+                'product'  => $this->ProductModel->get_product(),
+                'isi'      => 'product/v_list',
            ];
         echo view('layout/v_wrapper',$data);
     }

@@ -7,8 +7,8 @@ Class Home Extends BaseController
      function index()
     {
         $data=[
-                'title' => 'Judul home',
-                'isi'   => 'v_home',
+                'title'  => 'Judul home',
+                'isi'    => 'v_home',
            ];
         echo view('layout/v_wrapper',$data);
     }

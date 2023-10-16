@@ -24,7 +24,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -53,7 +52,6 @@
               </li>
             </ul>
           </li>
-
           <li class="nav-item">
             <a href="<?= base_url('Product') ?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
@@ -107,7 +105,6 @@
     </div>
     <!-- /.sidebar -->
   </aside>
-
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
