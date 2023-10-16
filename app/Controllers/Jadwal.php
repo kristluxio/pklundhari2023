@@ -48,7 +48,7 @@ class Jadwal Extends BaseController
         $data=[
             'title'   => 'Edit Data Jadwal',
             'jadwal' => $this->JadwalModel->edit_jadwal($id_jadwal),
-            'isi'     => 'jadwal/v_edit',
+            'isi'     => 'jadwal/v_edit_jadwal',
        ];
     echo view('layout/v_wrapper',$data);
     }

@@ -14,16 +14,16 @@ class TersangkaModel Extends Model
         return $this->db->table('tersangka')->insert($data);
     }
 
-    public function  edit_tersangka($no_ktp)
+    public function  edit_tersangka($id_berkas)
     {
-        return $this->db->table('tersangka')->where('no_ktp',$no_ktp)->get()->getRowArray(); 
+        return $this->db->table('tersangka')->where('id_berkas',$id_berkas)->get()->getRowArray(); 
     }
-    public function  update_tersangka($data, $no_ktp)
+    public function  update_tersangka($data, $id_berkas)
     {
-        return $this->db->table('tersangka')->update($data,array('no_ktp'=> $no_ktp)); 
+        return $this->db->table('tersangka')->update($data,array('id_berkas'=> $id_berkas)); 
     }
-    public function  delete_tersangka($no_ktp)
+    public function  delete_tersangka($id_berkas)
     {
-        return $this->db->table('tersangka')->delete(array('no_ktp'=> $no_ktp)); 
+        return $this->db->table('tersangka')->delete(array('id_berkas'=> $id_berkas)); 
     }
 }

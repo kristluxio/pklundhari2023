@@ -19,7 +19,7 @@ class Product Extends BaseController
         $data=[
                 'title'    => 'List Data Product',
                 'product'  => $this->ProductModel->get_product(),
-                'isi'      => 'product/v_list',
+                'isi'      => 'product/v_list_product',
            ];
         echo view('layout/v_wrapper',$data);
     }
@@ -27,7 +27,7 @@ class Product Extends BaseController
     {
         $data=[
             'title'   => 'Tambah Data Product',
-            'isi'     => 'product/v_tambah',
+            'isi'     => 'product/v_tambah_product',
        ];
     echo view('layout/v_wrapper',$data);
     }
@@ -35,7 +35,7 @@ class Product Extends BaseController
     public function save()
     {
         $data= [
-            'prodcut_name' => $this->request->getPost('prodcut_name'),
+            'product_name' => $this->request->getPost('prodcut_name'),
             'product_description' => $this->request->getPost('product_description'),
         ];
 
@@ -48,7 +48,7 @@ class Product Extends BaseController
         $data=[
             'title'   => 'Edit Data Product',
             'product'=> $this->ProductModel->edit_product($product_id),
-            'isi'     => 'product/v_edit',
+            'isi'     => 'product/v_edit_product',
        ];
     echo view('layout/v_wrapper',$data);
     }

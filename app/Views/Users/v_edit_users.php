@@ -7,7 +7,7 @@
   </div>
   <!-- /.card-header -->
   <!-- form start -->
-     <form role="form" action="<?= base_url('jadwal/update/'.$jadwal['id_jadwal']) ?>" method="post">
+     <form role="form" action="<?= base_url('users/update/'.$users['nip']) ?>" method="post">
       <div class="card-body">
 
                  <div class="form-group">

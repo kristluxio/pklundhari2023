@@ -11,6 +11,18 @@
 
               <div class="card-body">
                  <div class="form-group">
+                    <label>id_jadwal</label> 
+                    <input Name="date" Name="id_jadwal" class="form-control" placeholder="id_jadwal" required>
+                  </div>
+
+                  <div class="card-body">
+                 <div class="form-group">
+                    <label>id_berkas</label> 
+                    <input Name="date" Name="id_berkas" class="form-control" placeholder="id_berkas" required>
+                  </div>
+
+              <div class="card-body">
+                 <div class="form-group">
                     <label>tgl_jadwal </label> 
                     <input type="date" Name="tgl_jadwal" class="form-control" placeholder="tgl_jadwal" required>
                   </div>

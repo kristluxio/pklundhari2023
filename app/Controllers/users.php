@@ -51,8 +51,8 @@ class Users Extends BaseController
     {
         $data=[
             'title'   => 'Edit Data Users',
-            'users' => $this->UsersModel->edit_users($nip),
-            'isi'     => 'users/v_edit',
+            'users' => $this->UsersModel->edit_users($id_users),
+            'isi'     => 'users/v_edit_users',
        ];
     echo view('layout/v_wrapper',$data);
     }

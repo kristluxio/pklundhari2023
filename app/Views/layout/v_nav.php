@@ -99,6 +99,14 @@
               <i class="nav-icon fas fa-th"></i>
               <p>
                Berkas
+               </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('menghadiri') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+              Menghadiri     
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

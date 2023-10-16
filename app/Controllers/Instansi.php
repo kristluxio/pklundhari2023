@@ -49,7 +49,7 @@ class Instansi Extends BaseController
         $data=[
             'title'   => 'Edit Data Instansi',
             'instansi' => $this->InstansiModel->edit_instansi($id_instansi),
-            'isi'     => 'instansi/v_edit',
+            'isi'     => 'instansi/v_edit_instansi',
        ];
     echo view('layout/v_wrapper',$data);
     }

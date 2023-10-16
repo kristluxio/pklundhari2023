@@ -12,17 +12,17 @@
 
                  <div class="form-group">
                     <label>nama_instansi </label> 
-                    <input Name="nama_instansi" value="<?=instansi['nama_instansi'] ?>" class="form-control" placeholder="nama_instansi" required>
+                    <input Name="nama_instansi" value="<?= $instansi['nama_instansi'] ?>" class="form-control" placeholder="nama_instansi" required>
                   </div>
 
                   <div class="form-group">
                     <label>ket_instansi</label>
-                    <input Name="ket_instansi" value="<?=instansi['ket_instansi'] ?>" class="form-control" placeholder="ket_instansi" required>
+                    <input Name="ket_instansi" value="<?= $instansi['ket_instansi'] ?>" class="form-control" placeholder="ket_instansi" required>
                   </div>
                   
                  <div class="form-group">
                     <label>logo_instansi</label> 
-                    <input Name="logo_instansi" value="<?=instansi['logo_instansi'] ?> class="form-control" placeholder="logo_instansi" required>
+                    <input Name="logo_instansi" value="<?= $instansi['logo_instansi'] ?> class="form-control" placeholder="logo_instansi" required>
                     </div>
                 
                 </div>

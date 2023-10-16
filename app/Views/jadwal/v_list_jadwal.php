@@ -12,6 +12,8 @@
          <thead>
             <tr>
                 <th>No</th>
+                <th>id_jadwal</th>
+                <th>id_berkas</th>
                 <th>Tgl Jadwal</th>
                 <th>Ket Jadwal</th>
                 <th>Action</th> 
@@ -21,6 +23,8 @@
         <?php $no=1; foreach ($jadwal as $key => $value) { ?>
             <tr>
          <td><?= $no++; ?></td>
+         <td><?= $value['id_jadwal']; ?></td>
+         <td><?= $value['id_berkas']; ?></td>
         <td><?= $value['tgl_jadwal']; ?></td>
         <td><?= $value['ket_jadwal']; ?></td>
         <td>

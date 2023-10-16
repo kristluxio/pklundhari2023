@@ -9,6 +9,12 @@
   <!-- form start -->
      <form role="form" action="<?= base_url('tersangka/save') ?>" method="post">
 
+               <div class="card-body">
+                 <div class="form-group">
+                    <label>id_berkas </label> 
+                    <input Name="id_berkas" class="form-control" placeholder="id_berkas" required>
+                  </div>
+
               <div class="card-body">
                  <div class="form-group">
                     <label>no_ktp </label> 

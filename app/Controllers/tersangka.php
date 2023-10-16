@@ -49,7 +49,7 @@ class Tersangka Extends BaseController
         $data=[
             'title'   => 'Edit Data Tersangka',
             'tersangka' => $this->TersangkaModel->edit_tersangka($no_ktp),
-            'isi'     => 'tersangka/v_edit',
+            'isi'     => 'tersangka/v_edit_tersangka',
        ];
     echo view('layout/v_wrapper',$data);
     }

@@ -11,6 +11,7 @@
          <thead>
             <tr>
                 <th>No</th>
+                <th>Id_berkas</th>
                 <th>No_ktp</th>
                 <th>Nama_tersangka</th>
                 <th>Action</th> 
@@ -20,11 +21,12 @@
         <?php $no=1; foreach ($tersangka as $key => $value) { ?>
             <tr>
         <td><?= $no++; ?></td>
+        <td><?= $value['id_berkas']; ?></td>
         <td><?= $value['no_ktp']; ?></td>
         <td><?= $value['nama_tersangka']; ?></td>
         <td>
-            <a href="<?= base_url('tersangka/edit/'.$value['no_ktp']) ?>" class="btn btn-warning">Edit</a>
-            <a href="<?= base_url('tersangka/delete/'.$value['no_ktp']) ?>" class="btn btn-danger" onClick="return confirm('Apakah Ingin Hapus Data...?') ">Delete</a>
+            <a href="<?= base_url('tersangka/edit/'.$value['id_berkas']) ?>" class="btn btn-warning">Edit</a>
+            <a href="<?= base_url('tersangka/delete/'.$value['id_berkas']) ?>" class="btn btn-danger" onClick="return confirm('Apakah Ingin Hapus Data...?') ">Delete</a>
         </td>
     </tr>
     <?php } ?>

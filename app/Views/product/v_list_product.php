@@ -21,7 +21,7 @@
         <?php $no=1; foreach ($product as $key => $value) { ?>
         <tr>
             <td><?= $no++; ?></td>
-            <td><?= $value['prodcut_name']; ?></td>
+            <td><?= $value['product_name']; ?></td>
             <td><?= $value['product_description']; ?></td>
             <td>
                 <a href="<?= base_url('product/edit/'.$value['product_id']) ?>" class="btn-warning">Edit</a>
