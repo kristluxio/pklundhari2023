@@ -11,7 +11,7 @@
               <div class="card-body">
                  <div class="form-group">
                     <label>Product Name</label>
-                    <input Name="prodcut_name" class="form-control" placeholder="product name" required>
+                    <input Name="product_name" class="form-control" placeholder="product name" required>
                   </div>
                   <div class="form-group">
                     <label>Product Description</label>

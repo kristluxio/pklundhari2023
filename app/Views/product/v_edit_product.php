@@ -11,7 +11,7 @@
               <div class="card-body">
                  <div class="form-group">
                     <label>Product Name</label>
-                    <input name="prodcut_name"value="<?= $product['prodcut_name'] ?>" class="form-control" placeholder="product name" required>
+                    <input name="product_name"value="<?= $product['product_name'] ?>" class="form-control" placeholder="product name" required>
                   </div>
                   <div class="form-group">
                     <label>Product Description</label>

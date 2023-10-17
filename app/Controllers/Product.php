@@ -35,7 +35,7 @@ class Product Extends BaseController
     public function save()
     {
         $data= [
-            'product_name' => $this->request->getPost('prodcut_name'),
+            'product_name' => $this->request->getPost('product_name'),
             'product_description' => $this->request->getPost('product_description'),
         ];
 
@@ -56,7 +56,7 @@ class Product Extends BaseController
     public function update($product_id)
     {
         $data= [
-            'prodcut_name' => $this->request->getPost('prodcut_name'),
+            'product_name' => $this->request->getPost('product_name'),
             'product_description' => $this->request->getPost('product_description'),
         ];
 

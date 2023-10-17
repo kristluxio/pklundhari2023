@@ -49,7 +49,7 @@ class Menghadiri Extends BaseController
         $data=[
             'title'   => 'Edit Data Menghadiri',
             'menghadiri' => $this->MenghadiriModel->edit_menghadiri($id_jadwal),
-            'isi'     => 'menghadiri/v_edit menghadiri',
+            'isi'     => 'menghadiri/v_edit_menghadiri',
        ];
     echo view('layout/v_wrapper',$data);
     }

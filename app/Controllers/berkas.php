@@ -56,7 +56,7 @@ class Berkas Extends BaseController
         $data=[ 
             'title'   => 'Edit Data Berkas',
             'berkas' => $this->BerkasModel->edit_berkas($id_berkas),
-            'isi'     => 'berkas/v_edit',
+            'isi'     => 'berkas/v_edit_berkas',
        ];
     echo view('layout/v_wrapper',$data);
     }
