@@ -15,6 +15,13 @@
                     <input Name="id_jadwal" class="form-control" placeholder="id_jadwal" required>
                   </div>
 
+                  
+               <div class="card-body">
+                 <div class="form-group">
+                    <label>no_ktp </label> 
+                    <input Name="no_ktp" class="form-control" placeholder="no_ktp" required>
+                  </div>
+
                 </div>
                 <!-- /.card-body -->
 

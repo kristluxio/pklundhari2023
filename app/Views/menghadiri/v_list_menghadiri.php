@@ -11,6 +11,7 @@
          <thead>
             <tr>
                 <th>id_jadwal</th>
+                <th>no_ktp</th>
                 <th>Action</th> 
         </tr>
         <thead>
@@ -19,6 +20,7 @@
             <tr>
         <td><?= $no++; ?></td>
         <td><?= $value['id_jadwal']; ?></td>
+        <td><?= $value['no_ktp']; ?></td>
         <td>
             <a href="<?= base_url('menghadiri/edit/'.$value['id_jadwal']) ?>" class="btn btn-warning">Edit</a>
             <a href="<?= base_url('menghadiri/delete/'.$value['id_jadwal']) ?>" class="btn btn-danger" onClick="return confirm('Apakah Ingin Hapus Data...?') ">Delete</a>

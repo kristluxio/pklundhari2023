@@ -11,8 +11,14 @@
       <div class="card-body">
                    <div class="form-group">
                     <label>id_jadwal</label> 
-                    <input type="date" Name="id_jadwal" value="<?= $menghadiri['id_jadwal'] ?>" class="form-control" placeholder="id_jadwal" required>
+                    <input name="date" Name="id_jadwal" value="<?= $menghadiri['id_jadwal'] ?>" class="form-control" placeholder="id_jadwal" required>
                   </div> 
+
+                  <div class="form-group">
+                    <label>no_ktp</label> 
+                    <input name="date" Name="no_ktp" value="<?= $menghadiri['no_ktp'] ?>" class="form-control" placeholder="no_ktp" required>
+                  </div> 
+
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">

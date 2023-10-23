@@ -36,6 +36,7 @@ class Menghadiri Extends BaseController
     {
         $data= [
             'id_jadwal' => $this->request->getPost('id_jadwal'),
+            'no_ktp' => $this->request->getPost('no_ktp'),
             
            
         ];
@@ -58,6 +59,7 @@ class Menghadiri Extends BaseController
     {
         $data= [
             'id_jadwal' => $this->request->getPost('id_jadwal'),
+            'no_ktp' => $this->request->getPost('no_ktp'),
         ];
 
         $this->MenghadiriModel->update_menghadiri($data, $id_jadwal);
